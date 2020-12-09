@@ -1,0 +1,483 @@
+body {
+background-image: url("gloomy_forest_jq.jpg");
+font-size: 12px;
+letter-spacing: 0.2em;
+line-height: 200%;
+width: 100vw;
+height: auto;
+color:white;
+font-family: "Times New Roman";
+background-blend-mode: lighten;
+}
+body a{
+  padding: 1em;
+}
+.navbar{
+  display:flex;
+  align-items:center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 5;
+  padding: 10px 10px 0px 10px;
+}
+
+.logo{
+  flex: 1;
+}
+.Brand{
+  flex:9;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logolink{
+  text-align: left;
+}
+.link-1{
+  flex: 1;
+  text-align: center;
+}
+.link-2{
+  flex: 1;
+  text-align: center;
+}
+.link-3{
+  flex: 1;
+  text-align: center;
+}
+.link-4{
+  flex: 1;
+  text-align: center;
+  padding-right: 10px;
+}
+.link-5{
+  flex: 1;
+  text-align: center;
+}
+
+.navbar a:link{
+  color:white;
+  text-decoration: none;
+}
+.navbar a:visited{
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: lightgreen;
+  text-decoration: none;
+}
+#logo-white{
+  width: 50%;
+}
+
+.Brand a:link{
+  color: white;
+  text-decoration: none;
+}
+.Brand a:visited{
+  color: white;
+  text-decoration: none;
+}
+.Brand a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.link-4 a:link{
+  color: lightgreen;
+  text-decoration: none;
+}
+.link-4 a:visited{
+  color: lightgreen;
+  text-decoration: none;
+}
+.link-4 a:hover{
+  color: #39ff14;
+  text-decoration: none;
+}
+.to-top img{
+  position: fixed;
+  top: 700px;
+  left:1300px;
+  width:24px;
+  height: auto;
+}
+.to-top a:hover{
+
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+}
+.page{
+position: absolute;
+top:100%;
+left:0;
+width:100%;
+}
+.page p{
+  margin: 50px;
+  text-align: center !important;
+  color: white;
+}
+.page img{
+  width:400px;
+  height:500px;
+  object-fit: cover !important;
+
+}
+.container-1{
+  display:flex;
+  align-items: center;
+}.container-2{
+  display:flex;
+  align-items: center;
+}.container-3{
+  display:flex;
+  align-items: center;
+}.container-4{
+  display:flex;
+  align-items: center;
+}.container-5{
+  display:flex;
+  flex-direction: column;
+}
+
+.p1{
+  flex:1;
+    text-align: center;
+
+}
+.img1 img{
+    flex:1;
+    padding-left: 300px;
+}
+.p2{
+    flex:1;
+    margin-right: 175px;
+    margin-left: 100px;
+
+}
+.p3{
+    flex:1;
+    text-align:right;
+    margin-right: 100px;
+    margin-left: 250px;
+
+}
+.img2 img{
+    flex:1;
+    padding-right: 200px;
+}
+.img3 img{
+    flex:1;
+      padding-left: 300px;
+}
+.p4{
+    flex:1;
+    margin-right: 175px;
+    margin-left: 100px;
+}
+.img4 img{
+    flex:1;
+    height:500px;
+    width:auto;
+    padding: 50px 0px 0px 350px;
+}
+}
+.p5{
+    flex:1;
+
+}
+.p5 p{
+ margin-left : 225px;
+ margin-right : 225px;
+}
+.p5 a:link{
+  color: lightgreen;
+  text-decoration: none;
+}
+.p5 a:visited{
+  color: lightgreen;
+  text-decoration: none;
+}
+.p5 a:hover{
+  color: #39ff14;
+  text-decoration: none;
+}
+
+.content-flex{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.discussions{
+  font-family: monospace;
+    flex:3;
+    margin-top: 100px;
+    margin-left: 50px;
+  /* margin-top: 100px; */
+  /* margin-right: 50px; */
+  /* margin: 125px 50px 20px; */
+
+
+}
+.scrollsection{
+  height: 600px;
+/*overflow: scroll;*/
+}
+
+.forumheader{
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 18px;
+  text-align: center;
+}
+
+
+.accordion dt{
+  background-color: rgba(255,255,255,0.6);
+  border-width: 2px;
+  border-color: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: white;
+    margin:18px;
+}
+ .accordion dd {
+   margin-left: 18px;
+   text-align: center;
+   background-color: rgba(255,255,255,0.6);
+   border-width: 2px;
+   border-color: rgba(255,255,255,0.6);
+   border-radius: 5px;
+   color: black;
+  margin-bottom: 18px;
+ }
+ .accordion dt a,
+  .accordion dd a {
+        display: block;
+        color: #000;
+      }
+  .accordion dt  a:link{
+        color: black;
+        text-decoration: none;
+      }
+      .accordion dt  a:hover{
+          color: black;
+          text-decoration: none;
+          background-color: rgba(255,255,255,0.65);
+          border-width: 2px;
+          border-color: rgba(255,255,255,0.65);
+          border-radius: 5px;
+      }
+      .accordion dd  a:link{
+            color: black;
+            text-decoration: none;
+          }
+      .accordion dd  a:hover{
+          color: black;
+          text-decoration: none;
+          background-color: rgba(255,255,255,0.65);
+          border-width: 2px;
+          border-color: rgba(255,255,255,0.65);
+          border-radius: 5px;
+      }
+
+      .tooltip {
+        position: relative;
+        display: inline-block;
+      }
+.tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.side_panel{
+  margin-top: 128px;
+  margin-right: 50px;
+  height: 650px;
+  width: 500px;
+  flex: 1;
+}
+
+.storeheader{
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 18px;
+  text-align: center;
+  font-family: monospace;
+}
+
+ul {
+  margin:0;
+  text-align: center;
+}
+ul li {
+  list-style: none;
+}
+
+.shuffle-filter {
+  margin: 0 auto;
+}
+.shuffle-filter li {
+  display: inline-block;
+  cursor: pointer;
+}
+.selected {
+  text-decoration: underline;
+}
+
+.shuffle-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+.shuffle-container li span {
+  margin: 20px;
+  display: inline-block;
+}
+
+.label{
+
+  padding: 10px;
+  background-color: rgba(255,255,255,0.65);
+  border-width: 2px;
+  border-color: rgba(255,255,255,0.65);
+  border-radius: 5px;
+  color: black;
+  font-family: monospace;
+}
+.Paperless_store{
+    overflow: scroll;
+    margin-bottom: 200px;
+}
+
+.animation{
+  background-color: rgba(255,255,255,0.65);
+  border-width: 2px;
+  border-color: rgba(255,255,255,0.65);
+  border-radius: 5px;
+  color: black;
+  font-family: monospace;
+  height: 200px;
+  width: inherit;
+
+}
+.animation p{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 50px;
+}
+
+
+
+
+
+.btn-success{
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px;
+  top:-100px;
+  right: 150px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-family: monospace;
+  z-index: 500;
+}
+
+.Paperless_store{
+  background-color: rgba(255,255,255,0.6);
+  border-width: 2px;
+  border-color: rgba(255,255,255,0.6);
+  border-radius: 5px;
+
+  height: 420px;
+  width: inherit;
+
+}
+
+
+
+
+.panel-header{
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.footer{
+  display:flex;
+  flex-direction: column;
+  left:0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  top:250px;
+}
+.socials{
+align-self: center;
+padding-top: 30px;
+}
+.socials a:link{
+  color:white;
+  text-decoration: none;
+}
+.socials a:visited{
+  color: white;
+  text-decoration: none;
+}
+.socials a:hover{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote p{
+  text-align: center;
+}
+.footnote a:link{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote a:visited{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote a:hover{
+  color: #39ff14;
+  text-decoration: none;
+}
+
+.ui-state-default {
+  background: none;
+  background-color: black;
+  color: #FFF;
+  padding: 5px 0 5px 20px;
+}

@@ -1,0 +1,239 @@
+body {
+background-image: url("gloomy_forest_jq.jpg");
+font-size: 12px;
+letter-spacing: 0.2em;
+line-height: 200%;
+width: 100vw;
+height: auto;
+color:white;
+font-family: "Times New Roman";
+background-blend-mode: lighten;
+}
+body a{
+  padding: 1em;
+}
+.navbar{
+  display:flex;
+  align-items:center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 5;
+  padding: 10px 10px 0px 10px;
+}
+
+.logo{
+  flex: 1;
+}
+.Brand{
+  flex:9;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logolink{
+  text-align: left;
+}
+.link-1{
+  flex: 1;
+  text-align: center;
+}
+.link-2{
+  flex: 1;
+  text-align: center;
+}
+.link-3{
+  flex: 1;
+  text-align: center;
+}
+.link-4{
+  flex: 1;
+  text-align: center;
+  padding-right: 10px;
+}
+.link-5{
+  flex: 1;
+  text-align: center;
+}
+
+.navbar a:link{
+  color:white;
+  text-decoration: none;
+}
+.navbar a:visited{
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: lightgreen;
+  text-decoration: none;
+}
+#logo-white{
+  width: 50%;
+}
+
+.Brand a:link{
+  color: white;
+  text-decoration: none;
+}
+.Brand a:visited{
+  color: white;
+  text-decoration: none;
+}
+.Brand a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.link-4 a:link{
+  color: lightgreen;
+  text-decoration: none;
+}
+.link-4 a:visited{
+  color: lightgreen;
+  text-decoration: none;
+}
+.link-4 a:hover{
+  color: #39ff14;
+  text-decoration: none;
+}
+.header{
+  margin-top:100px;
+  font-size: 2rem;
+  color: white;
+  margin-left: 18px;
+  text-align: center;
+  font-family: monospace;
+}
+.form-submit-button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#database_buttons{
+  background-color: rgba(255,255,255,0.6);
+  border-width: 2px;
+  border-color: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  margin: 50px 250px;
+  padding: 10px 0px;
+  font-family: monospace;
+
+}
+
+.button {
+  background-color: black;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 5px;
+  color: white;
+  padding: 18px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 10px;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+.data_display{
+  color:black;
+  font-size: 1rem;
+  background-color: rgba(255,255,255,0.6);
+  border-width: 2px;
+  border-color: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  margin: 50px 250px;
+  padding: 10px 0px;
+  font-family: monospace;
+  padding: 50px;
+}
+.table_flex{
+  display: flex;
+  flex-direction: column;
+
+}
+.table_flex_header{
+  flex: 1;
+}
+.table_flex_data{
+  flex: 1;
+  justify-content: center;
+}
+.buttons_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.buttons_flex1{
+  flex: 1;
+}
+.buttons_flex1{
+  flex: 1;
+}
+.buttons_flex2{
+  flex: 1;
+}
+.buttons_flex3{
+  flex: 1;
+}
+.buttons_flex4{
+  flex: 1;
+}
+.footer{
+  display:flex;
+  flex-direction: column;
+  left:0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  top:205px;
+  left:0px;
+}
+.socials{
+align-self: center;
+padding-top: 30px;
+}
+.socials a:link{
+  color:white;
+  text-decoration: none;
+}
+.socials a:visited{
+  color: white;
+  text-decoration: none;
+}
+.socials a:hover{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote p{
+  text-align: center;
+}
+.footnote a:link{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote a:visited{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote a:hover{
+  color: #39ff14;
+  text-decoration: none;
+}
+
+.ui-state-default {
+  background: none;
+  background-color: black;
+  color: #FFF;
+  padding: 5px 0 5px 20px;
+}

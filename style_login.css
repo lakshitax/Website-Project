@@ -1,0 +1,298 @@
+/* login page design */
+
+body{
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  line-height: 200%;
+  width: 100vw;
+  color:white;
+  font-family: "Times New Roman" !important;
+  background-image: url("gloomy-forest.jpg");
+  background-blend-mode: lighten;
+
+}
+body a {
+  padding: 1em;
+}
+
+.login_page {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 5;
+  padding: 10px 10px 0px 10px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.Brand {
+  flex: 9;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logolink {
+  text-align: left;
+}
+
+.link-1 {
+  flex: 1;
+  text-align: center;
+}
+
+.link-2 {
+  flex: 1;
+  text-align: center;
+}
+
+.link-3 {
+  flex: 1;
+  text-align: center;
+}
+
+.link-4 {
+  flex: 1;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.link-5 {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+#logo-white {
+  width: 50%;
+}
+
+.Brand a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.Brand a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.Brand a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.link-4 a:link {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.link-4 a:visited {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.link-4 a:hover {
+  color: #39ff14;
+  text-decoration: none;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+}
+
+.container_login{
+  border: solid 1px black;
+  margin:150px 0px 75px 50px;
+  padding: 50px;
+  font-family: monospace;
+  flex:1;
+}
+
+
+.heading_1{
+  position: relative;
+  font-size: 2rem;
+}
+
+.login_form{
+  text-align: left;
+
+}
+
+.login_form a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+.login_form a:hover {
+  color: #39ff14;
+  text-decoration: none;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.form-control input:focus {
+	border-color: blue;
+}
+
+.form-control.success input {
+	border-color: #77dd77;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i.fa-check-circle {
+	visibility: hidden;
+  position: relative;
+  bottom: 57px;
+  left: 245px;
+}
+.form-control i.fa-exclamation-circle  {
+	visibility: hidden;
+  position: relative;
+  bottom: 57px;
+  left: 220px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #77dd77;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+  position: relative;
+  right:50px;
+  visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+
+
+
+input,button{
+  width: 40%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 5px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.discussions{
+  font-family: monospace;
+  flex:1;
+  margin-top: 125px;
+  margin-right: 50px;
+
+}
+.scrollsection{
+  height: 400px;
+  overflow: scroll;
+}
+.dis{
+  background-color: rgba(255,255,255,0.6);
+  color: black;
+  margin:18px;
+
+}
+.dis-header{
+  font-size: 1.5rem;
+}
+.dis-main{
+  margin-left: 18px;
+}
+.footer{
+  display:flex;
+  flex-direction: column;
+  position:absolute;
+  left:0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  width: 100vw;
+  padding: 10px;
+}
+
+.socials{
+align-self: center;
+padding: 30px;
+}
+.socials a:link{
+  color:white;
+  text-decoration: none;
+}
+.socials a:visited{
+  color: white;
+  text-decoration: none;
+}
+.socials a:hover{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote p{
+  text-align: center;
+  padding: 0px 50px 30px 50px;
+}
+.footnote a:link{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote a:visited{
+  color: lightgreen;
+  text-decoration: none;
+}
+.footnote a:hover{
+  color: #39ff14;
+  text-decoration: none;
+}
